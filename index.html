@@ -3,6 +3,17 @@
 <head>
 
   <title>Front-end | Profile</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- Open Graph метатеги -->
+    <meta property="og:title" content="Назва сторінки" />
+    <meta property="og:description" content="Короткий опис вашого сайту або сторінки." />
+    <meta property="og:image" content="<%= require('./assets/images/og-image.jpg') %>" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="uk_UA" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
